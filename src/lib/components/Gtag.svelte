@@ -4,7 +4,7 @@
 
     if (browser) {
         window.dataLayer = window.dataLayer || [];
-        window.gtag = function gtag(): void {
+        window.gtag = function gtag() {
             window.dataLayer!.push(arguments);
         };
         window.gtag('js', new Date());
