@@ -5,10 +5,13 @@
 	import Login from '$lib/components/Login.svelte';
 	import Uploader from '$lib/components/Uploader.svelte';
 	import Logo from '$lib/icons/Logo.svelte';
+        import Gtag from '$lib/components/Gtag.svelte'
 	import '../app.css';
 
 	export let data;
 </script>
+
+<Gtag id="G-E6JFQ900VN">
 
 <nav
 	class="fixed top-0 w-full h-16 flex justify-between items-center px-4 py-2 z-10 border-b bg-white dark:bg-zinc-800 dark:border-zinc-700 dark:text-zinc-300"
