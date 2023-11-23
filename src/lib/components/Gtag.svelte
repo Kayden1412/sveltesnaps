@@ -3,7 +3,7 @@
     export let id;
 
     if (browser) {
-        window.dataLayer = window.dataLayer || [];
+        window.dataLayer = window?.dataLayer ?? [];
         window.gtag = function gtag() {
             window.dataLayer!.push(arguments);
         };
