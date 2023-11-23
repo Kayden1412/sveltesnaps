@@ -153,7 +153,7 @@
 	<article class="flex items-center gap-2 mb-2">
 		<Avatar name={comment.name} avatar={comment.avatar} />
 
-		<p class="flex-1">{comment.text}</p>
+		<p class="flex-1">{comment.name} {comment.text}</p>
 
 		{#if comment.name === data.user?.name}
 			<form
