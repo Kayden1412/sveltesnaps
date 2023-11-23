@@ -5,7 +5,6 @@
 	import Login from '$lib/components/Login.svelte';
 	import Uploader from '$lib/components/Uploader.svelte';
 	import Logo from '$lib/icons/Logo.svelte';
-        import Gtag from '$lib/components/Gtag.svelte'
 	import '../app.css';
 
 	export let data;
