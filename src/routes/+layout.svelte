@@ -11,7 +11,7 @@
 	export let data;
 </script>
 
-<Gtag id="G-E6JFQ900VN">
+<Gtag id="G-E6JFQ900VN" />
 
 <nav
 	class="fixed top-0 w-full h-16 flex justify-between items-center px-4 py-2 z-10 border-b bg-white dark:bg-zinc-800 dark:border-zinc-700 dark:text-zinc-300"
